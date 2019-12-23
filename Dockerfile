@@ -10,8 +10,8 @@ ENV DEBIAN_FRONTEND noninteractive
 # Update and Add User
 RUN apt-get update \
     && apt-get install -y vim sudo wget \
-    && useradd -ms /bin/bash ${USERNAME}\
-    && sudo adduser ${USERNAME} sudo\
+    && useradd -ms /bin/bash ${USERNAME} \
+    && sudo adduser ${USERNAME} sudo \
     && echo ${USERNAME}:${USERPWD} | chpasswd
 
 # xrdp
