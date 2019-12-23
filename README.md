@@ -23,7 +23,7 @@ You can change the `USERNAME` and `USERPWD` by yourself. Or use the default sett
 docker pull augustushsu/ubuntu18.04-xrdp:cuda10.0-cudnn7-anaconda
 ```
 
-Use this command to download image from `Docker Hub`.
+Use this command to download the image from `Docker Hub`.
 
 ## Run
 
@@ -65,4 +65,3 @@ You can find the script on the `username` home directory named `tf2.sh` and `tes
 You can find the detail on my Blog, but it is used in Chinese.
 
 https://augustushsu.github.io/2019/12/23/DeepLearning-03/#more
-
