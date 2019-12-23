@@ -71,6 +71,6 @@ RUN apt-get update -y \
     && rm -rf /var/lib/apt/lists/*
 #-------------------Nvidia End-------------------
 
-# Copy File to ~/
+# Copy File to /home/${USERNAME}/
 COPY tf2.sh /home/${USERNAME}/
 COPY test_tf.py /home/${USERNAME}/
